@@ -1,0 +1,21 @@
+<igx-grid [data]="salaryTable1" primaryKey="RND_ID" [autoGenerate]="false" displayDensity="cosy" rowSelection="multiple" cellSelection="multiple" [rowEditable]="true" columnSelection="multiple" [allowFiltering]="true" filterMode="excelStyleFilter" width="1437px" height="900px" class="grid">
+  <igx-grid-toolbar>
+    <igx-grid-toolbar-actions>
+      <igx-grid-toolbar-pinning>True</igx-grid-toolbar-pinning>
+      <igx-grid-toolbar-hiding>True</igx-grid-toolbar-hiding>
+      <igx-grid-toolbar-exporter></igx-grid-toolbar-exporter>
+      <igx-grid-toolbar-advanced-filtering></igx-grid-toolbar-advanced-filtering>
+    </igx-grid-toolbar-actions>
+    <igx-grid-toolbar-title>Grid Toolbar</igx-grid-toolbar-title>
+  </igx-grid-toolbar>
+  <igx-column header="RND_ID" field="RND_ID" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="RND_ID"></igx-column>
+  <igx-column header="START_DATE" field="START_DATE" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="START_DATE"></igx-column>
+  <igx-column header="DEPARTMENT" field="DEPARTMENT" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="DEPARTMENT"></igx-column>
+  <igx-column header="College" field="College" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="College"></igx-column>
+  <igx-column header="Division" field="Division" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="Division"></igx-column>
+  <igx-column header="JOB_TITLE" field="JOB_TITLE" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="JOB_TITLE"></igx-column>
+  <igx-column header="PAY_YEARLY" field="PAY_YEARLY" dataType="number" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="PAY_YEARLY"></igx-column>
+  <igx-column header="PAY_YTD" field="PAY_YTD" dataType="number" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="PAY_YTD"></igx-column>
+  <igx-column header="TENURED" field="TENURED" dataType="string" [disablePinning]="false" [sortable]="true" [movable]="true" [resizable]="true" [groupable]="true" [editable]="true" [filterable]="true" [searchable]="true" [selectable]="true" [disableHiding]="false" [hasSummary]="true" title="TENURED"></igx-column>
+  <igx-paginator [perPage]="10"></igx-paginator>
+</igx-grid>
